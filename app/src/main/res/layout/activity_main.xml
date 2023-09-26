@@ -46,7 +46,7 @@
         android:layout_marginStart="31dp"
         android:layout_marginBottom="27dp"
         android:onClick="click"
-        android:text="Button"
+        android:text="@string/txt_somar"
         app:layout_constraintBottom_toTopOf="@+id/editTextText3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -57,7 +57,18 @@
         android:layout_marginStart="34dp"
         android:layout_marginBottom="25dp"
         android:onClick="abrirOutraJanela"
-        android:text="Janela"
+        android:text="@string/txt_janela"
         app:layout_constraintBottom_toTopOf="@+id/editTextText3"
         app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="33dp"
+        android:onClick="abrirTipCalculator"
+        android:text="@string/txt_gorjeta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
