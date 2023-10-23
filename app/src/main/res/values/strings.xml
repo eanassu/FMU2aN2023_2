@@ -14,4 +14,5 @@
     <string name="txt_cargo">Cargo:</string>
     <string name="txt_database">Database</string>
     <string name="txt_cadastrar">Cadastrar</string>
+    <string name="txt_listar">Listar</string>
 </resources>
