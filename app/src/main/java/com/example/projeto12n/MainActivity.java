@@ -54,4 +54,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DatabaseActivity.class);
         startActivity(intent);
     }
+
+    public void abrirSensores( View view ) {
+        Intent intent = new Intent(this, SensorActivity.class);
+        startActivity(intent);
+    }
 }
